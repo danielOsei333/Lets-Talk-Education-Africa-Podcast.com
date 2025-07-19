@@ -1,10 +1,4 @@
-/*
 
-TemplateMo 584 Pod Talk
-
-https://templatemo.com/tm-584-pod-talk
-
-*/
 
 
 
@@ -280,6 +274,10 @@ main {
       }
     }
 
+
+.custom-video{
+  border-radius: 124px;
+}
 
 /*---------------------------------------
   CUSTOM BUTTON               
