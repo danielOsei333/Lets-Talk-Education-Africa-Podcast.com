@@ -162,12 +162,6 @@ strong {
   padding: 10px 25px;
 }
 
-.text-white {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)) !important;
-  position: sticky;
-}
-
 .section-padding {
   padding-top: 100px;
   padding-bottom: 100px;
