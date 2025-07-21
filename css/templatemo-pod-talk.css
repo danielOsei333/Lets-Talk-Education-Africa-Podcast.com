@@ -100,12 +100,6 @@ p {
   font-weight: var(--font-weight-light);
 }
 
-text-white {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)) !important;
-  position: sticky;
-}
-
 ul li {
   color: var(--p-color);
   font-size: var(--p-font-size);
@@ -166,6 +160,12 @@ strong {
   z-index: 2;
   margin-bottom: 0;
   padding: 10px 25px;
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)) !important;
+  position: sticky;
 }
 
 .section-padding {
