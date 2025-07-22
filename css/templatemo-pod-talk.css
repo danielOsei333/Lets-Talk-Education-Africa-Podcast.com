@@ -132,10 +132,14 @@ strong {
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
-.section-title-wrap {
+.min-section-title-wrap {
   position: relative;
   right: -84px;
   top: 10px;
+}
+
+.section-title-wrap {
+  position: relative;
 }
 
 .section-title-wrap::after {
@@ -150,7 +154,7 @@ strong {
   pointer-events: none;
 }
 
-.section-title {
+.min-section-title {
   background: var(--section-bg-color);
   border-radius: var(--border-radius-large);
   display: inline-block;
@@ -159,6 +163,16 @@ strong {
   margin-bottom: 0;
   padding: 10px 25px;
   top: 0px;
+}
+
+.section-title {
+  background: var(--section-bg-color);
+  border-radius: var(--border-radius-large);
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0;
+  padding: 10px 25px;
 }
 
 .section-padding {
