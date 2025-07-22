@@ -132,14 +132,16 @@ strong {
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
-.min-section-title-wrap {
+.section-title-wrap {
   position: relative;
   right: -84px;
   top: 10px;
 }
 
-.section-title-wrap {
+.min-section-title-wrap {
   position: relative;
+  right: -84px;
+  top: 10px;
 }
 
 .section-title-wrap::after {
@@ -185,6 +187,7 @@ strong {
   z-index: 2;
   margin-bottom: 0;
   padding: 10px 25px;
+  top: 0px;
 }
 
 .section-padding {
@@ -207,8 +210,7 @@ main {
 }
 
 .section-bg {
-  background-color: var(--section-bg-color);
-}
+  background-color: var(--section-bg-color);}
 
 .section-overlay {
   background-color: #FCD500CF !important;
