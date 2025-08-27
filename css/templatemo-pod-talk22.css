@@ -166,6 +166,7 @@ strong {
   z-index: 2;
   margin-bottom: 0;
   padding: 10px 25px;
+  right: 86px;
 }
 
 .section-padding {
@@ -1247,4 +1248,5 @@ main {
   }
 
 }
+
 
